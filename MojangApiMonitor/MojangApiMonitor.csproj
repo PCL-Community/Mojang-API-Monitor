@@ -2,9 +2,34 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Mojang-API-Monitor</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>lhx077</Authors>
+    <Company>lhx077</Company>
+    <Description>一个.NET Standard 2.0类库，用于监控Mojang API的状态。当玩家在Minecraft中遇到登录错误时，可以使用此工具检查是否为Mojang服务器的问题。</Description>
+    <RepositoryUrl>https://github.com/PCL-Community/Mojang-API-Monitor</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Minecraft;Mojang;API;Monitor</PackageTags>
+    <PackageReleaseNotes>
+      1. 添加了Mojang API状态监控功能。
+      2. 添加了玩家登录错误检测功能。
+      3. 添加了API响应时间监控功能。
+      4. 添加了API可用性监控功能。
+      5. 添加了API错误监控功能。
+    </PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/PCL-Community/Mojang-API-Monitor</PackageProjectUrl>
+    <Copyright>Copyright (c) 2025 lhx077</Copyright>
+    <LicenseUrl>https://github.com/PCL-Community/Mojang-API-Monitor/blob/main/LICENSE</LicenseUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
+  
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
