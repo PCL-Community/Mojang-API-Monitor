@@ -1,0 +1,64 @@
+# 构建输出
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio文件
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# NuGet包
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSTest测试结果
+TestResults/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# 日志文件
+*.log
+logs/
+
+# 输出结果文件
+mojang_status.json
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio缓存
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Windows系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS系统文件
+.DS_Store 
