@@ -1,13 +1,13 @@
 # Mojang API 监控器
 
-这是一个.NET Standard 2.0类库，用于监控Mojang API的状态。当玩家在Minecraft中遇到登录错误时，可以使用此工具检查是否为Mojang服务器的问题。
+这是一个 .NET Standard 2.0 类库，用于监控 Mojang API 的状态。当玩家在 Minecraft 中遇到登录错误时，可以使用此工具检查是否为 Mojang 服务器的问题。
 
 ## 功能
 
-- 监控9个Mojang服务的状态
+- 监控 9 个 Mojang 服务的状态
 - 检测服务是否在线
 - 测量响应时间
-- 将结果导出为JSON文件
+- 将结果导出为 JSON 文件
 
 ## 监控的服务
 
@@ -26,8 +26,8 @@
 ## 项目结构
 
 - `MojangApiMonitor/` - 主要类库项目
-  - `MojangService.cs` - 表示一个Mojang服务及其状态
-  - `MojangApiStatus.cs` - 表示所有Mojang服务的状态
+  - `MojangService.cs` - 表示一个 Mojang 服务及其状态
+  - `MojangApiStatus.cs` - 表示所有 Mojang 服务的状态
   - `MojangMonitor.cs` - 核心功能类，负责检查服务状态
   - `MojangApiMonitorExample.cs` - 示例代码
 - `MojangApiMonitorTest/` - 控制台应用程序，用于测试类库
@@ -72,7 +72,7 @@ monitor.ExportToJson(status, "mojang_status.json");
 
 ## 构建项目
 
-使用Visual Studio或dotnet CLI构建项目：
+使用 Visual Studio 或 dotnet CLI 构建项目：
 
 ```bash
 dotnet build
@@ -91,8 +91,8 @@ dotnet run --project MojangApiMonitorTest/MojangApiMonitorTest.csproj
 
 ## 许可证
 
-基于MIT许可证提供
+基于 MIT 许可证提供
 
 ## 免责声明
 
-本项目不隶属于Mojang Studios或Microsoft。Minecraft、Mojang是Mojang Studios的商标。 
+本项目不隶属于 Mojang Studios 或 Microsoft。Minecraft、Mojang 是 Mojang Studios 的商标。 
